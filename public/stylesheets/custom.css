@@ -175,7 +175,7 @@ font-size:75%
 
 @media only screen and (max-width: 767px) {
   .text {
-    font-size:60%;
+    font-size:40%;
     width:70%;
   }
   .locationcontainer {
