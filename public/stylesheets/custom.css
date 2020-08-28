@@ -1,9 +1,11 @@
 html {
-overflow-x: hidden
+  min-height: 100% !important;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  min-height: 100% !important;
 }
 
 #body {
@@ -100,7 +102,7 @@ font-family: 'Montserrat' !important
 }
 
 .douccontainer {
-height: 400px;
+height: 350px;
 text-align: center;
 }
 
@@ -127,8 +129,9 @@ font-size: 200%
 }
 
 .locationcontainer {
-height:400px;
-padding-top : 70px;
+height:auto;
+padding-top : 100px;
+padding-bottom: 100px
 }
 
 .overlay {
@@ -153,7 +156,6 @@ height: 100%
 
 .col-md-2:hover {
 color: white !important;
-font-size:115% !important
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -172,13 +174,14 @@ font-size:75%
 }
 
 @media only screen and (max-width: 767px) {
-
   .text {
-    font-size:70%;
+    font-size:60%;
     width:70%;
   }
   .locationcontainer {
-  padding-top:100px
+  padding-top:100px;
+  padding-bottom:100px;
+  height:auto
   }
   .nextpage {
   margin-top:20px
@@ -193,12 +196,7 @@ font-size:75%
   .douccontainer{
   height:330px
   }
-  
- .col-md-2:hover {
-color: white !important;
-font-size:100% !important
-} 
-  
+    
   #subjectcontainer {
   height:200px;
   }
@@ -218,12 +216,14 @@ font-size:100% !important
   }
   #maindiv{
   padding-top:0;
-  height:auto
+  height:1650px;
+  background: rgb(140,140,140)
   }
   .footer {
   border-radius:0;
   margin-bottom:0;
-  height:225px
+  height:225px;
+  font-size:90%
   }
   #body{
   padding:0
