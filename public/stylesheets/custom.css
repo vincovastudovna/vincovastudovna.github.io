@@ -1,0 +1,235 @@
+html {
+overflow-x: hidden
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#body {
+  background-color: rgb(5,5,5);
+  padding-top: 47px
+
+}
+
+#custom-navbar {
+background-color: grey;
+height: 40px;
+font-size: 63%;
+margin-left:auto;
+margin-right:auto;
+padding:0;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+
+.footer {
+height:220px; 
+border-bottom-right-radius: 30px; 
+border-bottom-left-radius: 30px; 
+margin-bottom: 30px
+}
+
+.contacttext {
+font-size:90%;
+margin-left: 2%; 
+vertical-align:middle; 
+white-space: nowrap
+}
+
+.backgroundcover {
+background:rgb(5,5,5);
+height:50px;
+margin-left:auto;
+margin-right:auto
+}
+
+.nav-item {
+width:100%;
+text-align:center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+border-left: 1px solid black;
+white-space: nowrap
+}
+
+#navhome {
+width:5%
+}
+
+.navbar-light .navbar-nav .nav-link {
+color:black
+}
+
+ul {
+width:100%
+}
+
+#maindiv {
+  background:rgb(30,30,30);
+  padding:0;
+  height: 4800px;
+  color:white
+}
+
+#homepageicon {
+	font-size: 9rem;
+	padding-left: 3%;
+	padding-right: 3%;
+	height: 12rem;
+}
+.homepagebanner {
+width:100%
+}
+
+.nextpage {
+margin-top:1080px;
+}
+
+.center {
+margin-left: 23%;
+margin-top: 1.8%
+}
+
+#homepagetext {
+padding-bottom:2%;
+font-size:86%;
+margin-top:3%;
+padding-left:10%;
+font-family: 'Montserrat' !important
+}
+
+.douccontainer {
+height: 400px;
+text-align: center;
+}
+
+
+#largenavrow{
+   margin-top:30px
+  }
+.specialcontent {
+background: grey;
+color:rgb(30,30,30) !important;
+width:100%;
+margin-left: auto;
+margin-right: auto;
+padding:0;
+padding-top:1%;
+text-align:center
+}
+
+.left-text {
+text-align: left !important
+}
+.subjecticons {
+font-size: 200%
+}
+
+.locationcontainer {
+height:400px;
+padding-top : 70px;
+}
+
+.overlay {
+position:absolute;
+bottom:100%;
+left:0;
+right:0;
+overflow:hidden;
+width:100%;
+height:0;
+transition: .5s ease;
+}
+
+.locationcontainer:hover .overlay {
+bottom:0;
+height: 100%
+}
+
+#subjectcontainer {
+  margin-top:20px
+}
+
+.col-md-2:hover {
+color: white !important;
+font-size:115% !important
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+color: white !important;
+}
+
+.text {
+padding-top:10%;
+position:absolute;
+top: 50%;
+left: 50%;
+width:90%;
+transform: translate(-50%, -50%);
+text-align:center;
+font-size:75%
+}
+
+@media only screen and (max-width: 767px) {
+
+  .text {
+    font-size:70%;
+    width:70%;
+  }
+  .locationcontainer {
+  padding-top:100px
+  }
+  .nextpage {
+  margin-top:20px
+  }
+
+  .specialcontent {
+  margin-left:auto;
+  margin-right:auto;
+  width:95.8%
+  }
+  
+  .douccontainer{
+  height:330px
+  }
+  
+ .col-md-2:hover {
+color: white !important;
+font-size:100% !important
+} 
+  
+  #subjectcontainer {
+  height:200px;
+  }
+  
+  #homepagetext {
+    padding-left:5%;
+    padding-right:5%
+  }
+  #homepageicon {
+  display:none  
+  }
+  #largenavrow{
+    visibility: hidden !important
+  }
+  .backgroundcover{
+    visibility: hidden !important
+  }
+  #maindiv{
+  padding-top:0;
+  height:auto
+  }
+  .footer {
+  border-radius:0;
+  margin-bottom:0;
+  height:225px
+  }
+  #body{
+  padding:0
+  }
+}
+
+a {
+  color: #00B7FF;
+}
