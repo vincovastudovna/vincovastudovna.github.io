@@ -33,7 +33,7 @@ margin-bottom: 30px
 }
 
 .contacttext {
-font-size:90%;
+font-size:79%;
 margin-left: 2%; 
 vertical-align:middle; 
 white-space: nowrap
@@ -175,8 +175,8 @@ font-size:75%
 
 @media only screen and (max-width: 767px) {
   .text {
-    font-size:40%;
-    width:70%;
+    font-size:50%;
+    width:80%;
   }
   .locationcontainer {
   padding-top:100px;
@@ -222,7 +222,7 @@ font-size:75%
   .footer {
   border-radius:0;
   margin-bottom:0;
-  height:182px;
+  height:200px;
   font-size:90%
   }
   #body{
